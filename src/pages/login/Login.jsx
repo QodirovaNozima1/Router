@@ -31,14 +31,14 @@ const Login = () => {
             </button>
           </NavLink>
           <button
-            className="border-1 border-slate-200 hover:bg-slate-800 transition-all hover:shadow-lg hover:text-white  w-60  p-2"
+            className="border-1 border-slate-200 hover:bg-slate-800 duration-700 transition-all hover:shadow-lg hover:text-white  w-60  p-2"
             onClick={() => navigate("/")}
           >
             Выход
           </button>
           <p>or</p>
           <button
-            className="border-3 border-slate-800   w-60  p-2 flex items-center justify-center gap-2"
+            className="border-2 border-slate-800   w-60  p-2 flex items-center justify-center gap-2"
           >
             <FcGoogle />
             Sign in with Google

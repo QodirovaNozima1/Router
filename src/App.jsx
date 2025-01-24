@@ -9,6 +9,7 @@ import './App.css';
 import { Route, Routes, Link } from 'react-router-dom';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import Detail from './pages/detail/Detail';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/*' element={<Error/>}/>
+      <Route path='/product/:id' element={<Detail/>}/>
     </Routes>
     <Footer/>
     </>

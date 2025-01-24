@@ -17,7 +17,7 @@ const Header = () => {
   const links = ["Каталог", "Доставка", " Условия", "Контакты"]
   const number = ["+ 375 736 463"]
   return (
-    <header id= 'header' className={`header backdrop-blur-sm flex gap-5 p-5 items-center ${bg}`}>
+    <header id= 'header' className={`header h-[80px] backdrop-blur-sm flex gap-5 p-5 items-center ${bg}`}>
       <div className='container w-5/6'>
         <nav className="navbar py-5 flex items-center justify-between">
         <div className="navbar__logo">
