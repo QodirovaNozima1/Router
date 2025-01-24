@@ -7,7 +7,7 @@ import Error from './pages/notFound/notFound'
 import Product from './components/products/Product';
 import './App.css';
 import { Route, Routes, Link } from 'react-router-dom';
-import Header from './components/header/header';
+import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 
 function App() {
